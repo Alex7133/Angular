@@ -1,0 +1,46 @@
+.container {
+    margin: 20px auto;
+  }
+  
+  .product {
+    position: relative;
+    margin-bottom: 20px;
+  }
+  
+  .product img {
+    max-width: 100%;
+    display: block;
+  }
+  
+  .description {
+    padding: 10px;
+    background-color: #f8f8f8;
+  }
+  
+  .description .name {
+    font-weight: bold;
+  }
+  
+  .description .price {
+    font-weight: bold;
+    color: #555555;
+    
+  }
+  
+  .description .price .original {
+    margin-right: 10px;
+  }
+  
+  .description .price .discounted {
+    color: red;
+    text-decoration: none;
+    text-decoration: line-through;
+  }
+  
+  .product:hover .overlay {
+    display: flex;
+  }
+  
+ .center{
+    margin-left: 200px;
+  }

@@ -1,0 +1,24 @@
+.carousel-img {
+  width: 20%;
+  margin-right: 1%;
+}
+
+.carousel-item {
+  display: flex;
+}
+
+.carousel-inner {
+  width: 100%;
+  overflow: hidden;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100%;
+  width: 5%;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 5%;
+}
